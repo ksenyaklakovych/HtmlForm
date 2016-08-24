@@ -1,9 +1,64 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="uk">
     <head>
-        <title> </title>
+        <meta charset="UTF-8">
+        <title>Homework</title>
     </head>
     <body>
-
-    </body>
-</html>
+        <form action="https://formspree.io/kklakovych@gmail.com" method="POST">
+           <h1>Соціологічне опитування</h1>
+           <h2>"Зміни в системі освіти України"<h3><hr>
+           <p>1.Що,на Вашу думку, потребує найбільших змін?</p>
+           <input type="radio" name="changes" value="methods">Методи викладання<br>
+           <input type="radio" name="changes" value="books">Підручники<br>
+           <input type="radio" name="changes" value="hours">Кількість навчальних годин<br>
+           <input type="radio" name="changes" value="years">Кількість навчальних років<br>
+           <p>2.Скільки років,на Вашу думку, потрібно вчитись дітям у школі?</p>
+           <input type="radio" name="years" value="less">Менше 11<br>
+           <input type="radio" name="years" value="eleven">11<br>
+           <input type="radio" name="years" value="twelve">12<br>
+           <input type="radio" name="years" value="more">Більше 12<br>
+           <p>3.Які викладачі повинні працювати у навчальних закладах?</p>
+           <input type="radio" name="teachers" value="young">Молоді, після закінчення ВНЗ<br>
+           <input type="radio" name="teachers" value="old">Старші, але з досвідом<br>
+           <input type="radio" name="teachers" value="different">І ті, і ті<br>
+           <p>4.Чи підтримуєте ви спосіб навчання, що включає гру ігор?</p>
+           <input type="radio" name="method" value="yes">Так<br>
+           <input type="radio" name="method" value="no">Ні<br>
+           <input type="radio" name="method" value="donotunderstand">Не розумію цього способу<br>
+           <p>5.Чи вважаєте Ви, що потрібно зменшити кількість предметів у школі?</p>
+           <input type="radio" name="number" value="yes">Так<br>
+           <input type="radio" name="number" value="no">Ні<br>
+           <p>6.На яких предметах, на Вашу думку, потрібно акцентувати увагу?</p>
+           <input type="radio" name="classes" value="math">Математика, фізика, інформатика<br>
+           <input type="radio" name="classes" value="lang">Мови, література<br>
+           <input type="radio" name="classes" value="creative">Фізкультура, творчі предмети<br>  
+           <p>7.Який предмет, з нижче перелічених, Ви вважаєте зайвим у школі?</p>
+           <input type="radio" name="class" value="informat">Інформатика<br>
+           <input type="radio" name="class" value="painting">Малювання<br>
+           <input type="radio" name="class" value="music">Музика<br>
+           <input type="radio" name="class" value="kreslennya">Креслення<br>
+           <input type="radio" name="class" value="allgood">Всі потрібні<br> 
+           <p>8.Чи погоджуєтесь Ви, що ЗНО-єдиний чесний спосіб вступу у ВНЗ?</p>
+           <input type="radio" name="agree" value="yes">Так<br>
+           <input type="radio" name="agree" value="no">Ні<br>
+           <input type="radio" name="agree" value="half">Частково<br> 
+           <p>9.Чи вважаєте Ви, що англійська мова повинна стати обов'язковим предметом здачі на ЗНО?</p>
+           <input type="radio" name="english" value="yes">Так<br>
+           <input type="radio" name="english" value="no">Ні<br>
+           <p>10.Чи вважаєте ви, що в Україні варто зробити популярним спосіб брати <strong title="Вільний рік після закінчення школи і перед вступом у ВНЗ. Зазвичай абітурієнти подорожують чи працюють у цей час.">"gap year"</strong> після закінчення школи?</p>
+           <input type="radio" name="gapyear" value="yes">Так<br>
+           <input type="radio" name="gapyear" value="no">Ні<br><br>
+	       <label for="name">Ваше ім'я:</label>
+           <input type="text" name="name" id="name" required>
+           <br>
+           <label for="age">Ваш вік:</label>
+           <input type="number" name="age" id="age" required>
+           <br>
+           <label for="email">Ваш email:</label>
+           <input type="email" name="email" id="email" required>
+           <br><br>
+           <input type="submit" name="send" value="Завершити">
+        </form>
+     </body>
+<html>
